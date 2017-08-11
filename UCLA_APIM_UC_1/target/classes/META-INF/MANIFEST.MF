@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1502463635834
+Build-Jdk: 1.8.0_141
+Built-By: david
+Bundle-Description: Camel Content-Based Router Example using the Java DS
+ L
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Camel Content-Based Router Example using the Java DSL [UCLA
+ _APIM_UC_1]
+Bundle-SymbolicName: UCLA_APIM_UC_1
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.redhat.poc.ucla.ws;version="1.0.0";uses:="com.redat.
+ poc.ucla.response",com.redhat.poc.ucla.model;version="1.0.0";uses:="jav
+ ax.xml.bind,javax.xml.bind.annotation",com.redat.poc.ucla.response;vers
+ ion="1.0.0",com.mycompany.camel;version="1.0.0";uses:="org.apache.camel
+ ,org.apache.camel.builder"
+Import-Package: com.redat.poc.ucla.response;version="[1.0,2)",com.redhat
+ .poc.ucla.model;version="[1.0,2)",com.redhat.poc.ucla.ws;version="[1.0,
+ 2)",javax.xml.bind,javax.xml.bind.annotation,javax.xml.namespace,org.ap
+ ache.camel;version="[2.17,3)",org.apache.camel.builder;version="[2.17,3
+ )",org.apache.camel.component.cxf;version="[2.17,3)",org.apache.camel.m
+ ain;version="[2.17,3)",org.apache.camel.model;version="[2.17,3)",org.ap
+ ache.camel.model.dataformat;version="[2.17,3)",org.apache.camel.model.r
+ est;version="[2.17,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.2.0.201605172007

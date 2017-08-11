@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.camel.RouteXmlTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.308 sec <<< FAILURE! - in com.mycompany.camel.RouteXmlTest
+testCamelRoute(com.mycompany.camel.RouteXmlTest)  Time elapsed: 1.163 sec  <<< ERROR!
+org.apache.cxf.service.factory.ServiceConstructionException
+Caused by: java.io.IOException: Cannot find any registered HttpDestinationFactory from the Bus.
+
