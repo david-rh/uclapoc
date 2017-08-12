@@ -1,9 +1,0 @@
-/home/david/Work/UCLA/apirfp/workspace/UCLA_APIM_UC_1/src/main/java/com/redhat/poc/ucla/model/Patient.java
-/home/david/Work/UCLA/apirfp/workspace/UCLA_APIM_UC_1/src/main/java/com/redhat/poc/ucla/ws/PatientWS.java
-/home/david/Work/UCLA/apirfp/workspace/UCLA_APIM_UC_1/src/main/java/com/mycompany/camel/Launcher.java
-/home/david/Work/UCLA/apirfp/workspace/UCLA_APIM_UC_1/src/main/java/com/redhat/poc/ucla/model/ObjectFactory.java
-/home/david/Work/UCLA/apirfp/workspace/UCLA_APIM_UC_1/src/main/java/com/mycompany/camel/PatientRESTResponseTransform.java
-/home/david/Work/UCLA/apirfp/workspace/UCLA_APIM_UC_1/src/main/java/com/redat/poc/ucla/response/PatientWSResponse.java
-/home/david/Work/UCLA/apirfp/workspace/UCLA_APIM_UC_1/src/main/java/com/redat/poc/ucla/response/PatientFHIRResponse.java
-/home/david/Work/UCLA/apirfp/workspace/UCLA_APIM_UC_1/src/main/java/com/redat/poc/ucla/response/PatientRESTResponse.java
-/home/david/Work/UCLA/apirfp/workspace/UCLA_APIM_UC_1/src/main/java/com/mycompany/camel/CamelRoute.java

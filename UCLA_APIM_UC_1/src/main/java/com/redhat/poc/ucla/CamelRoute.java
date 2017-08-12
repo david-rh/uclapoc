@@ -5,6 +5,7 @@ import org.apache.camel.LoggingLevel;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.cxf.CxfEndpoint;
 import org.apache.camel.model.dataformat.JsonLibrary;
+import org.apache.camel.model.rest.RestBindingMode;
 
 import com.redat.poc.ucla.transforms.PatientFHIResponseTransform;
 import com.redat.poc.ucla.transforms.PatientRESTResponseTransform;
@@ -14,14 +15,7 @@ public class CamelRoute extends RouteBuilder {
 	@Override
 	public void configure() throws Exception {
 		
-//		CamelContext camelctxt= getContext();
-		
-		CxfEndpoint websvc = new CxfEndpoint();
-		websvc.setAddress("http://localhost:8088/uclsws");
-		websvc.setServiceClass(com.redhat.poc.ucla.ws.PatientWS.class);
-//		websvc.setBeanId("uclaws");
-		
-//		camelctxt.addEndpoint("uclaws", websvc);
+		restConfiguration("spark-rest").port(8880).bindingMode(RestBindingMode.auto);
 		
 		// REST Service Client D example
 		rest("/uclarest")
